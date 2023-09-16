@@ -4,6 +4,18 @@
   padding: 2rem;
   text-align: center;
 }
+.navbar-link-block {
+  list-style: none;
+}
+.navbar-link-block li{
+  display: inline;
+  padding: 12px;
+  gap:4px;
+  
+}
+.navbar-link-block li:hover{
+  color: aqua;
+}
 
 .logo {
   height: 6em;
@@ -33,10 +45,4 @@
   }
 }
 
-.card {
-  padding: 2em;
-}
 
-.read-the-docs {
-  color: #888;
-}

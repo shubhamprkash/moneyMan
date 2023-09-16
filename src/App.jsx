@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import Navbar from "./components/Navbar";
 
 import './App.css'
 
@@ -7,6 +8,7 @@ function App() {
 
   return (
     <>
+    <Navbar/>
      <h1>Money Man</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
